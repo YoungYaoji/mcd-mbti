@@ -133,9 +133,7 @@
   <rect x="0" y="1706" width="1080" height="214" fill="url(#hdr)"/>
   <rect x="0" y="1706" width="1080" height="6" fill="#FFC72C"/>
   <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">
-    <text x="540" y="1782" font-size="44" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
-    <text x="540" y="1836" font-size="26" fill="#FFE9B8">测测你是什么麦门人格</text>
+    <text x="540" y="1798" font-size="44" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
+    <text x="540" y="1854" font-size="26" fill="#FFE9B8">测测你是什么麦门人格</text>
   </g>
-  <rect x="290" y="1852" width="500" height="64" rx="32" fill="#FFC72C"/>
-  <text x="540" y="1893" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" font-weight="900" fill="#7A4A1E" text-anchor="middle">教程截图保存这条 · 慢慢照着做</text>
 </svg>
