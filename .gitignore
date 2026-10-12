@@ -1,0 +1,17 @@
+# 输出产物（本地生成，不入库）
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 敏感信息（Token 绝不入库）
+.env
+*.token
+mcp-config.json
