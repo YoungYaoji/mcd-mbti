@@ -14,76 +14,110 @@
           fill="none" stroke="#FFC72C" stroke-width="17" stroke-linecap="round"/>
   </g>
   <text x="238" y="106" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="54" font-weight="900" fill="#DA291C" letter-spacing="3">麦门人格鉴定所</text>
-  <text x="240" y="148" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">项目效果 Demo · 从订单到人格卡</text>
+  <text x="240" y="148" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">麦当劳程序员大赛 · 参赛作品</text>
   <line x1="78" y1="184" x2="1002" y2="184" stroke="#E8D9B0" stroke-width="2"/>
 
   <!-- title -->
-  <text x="78" y="252" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="46" font-weight="900" fill="#DA291C">项目效果 Demo</text>
-  <text x="78" y="294" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">真实订单 → 四轴评分 → 一张可晒的人格卡</text>
+  <text x="78" y="252" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="46" font-weight="900" fill="#DA291C">你点过的每一单，都在替你投票</text>
+  <text x="78" y="294" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">拉真实订单 → 四轴算法 → 算出你的麦门人格</text>
 
-  <!-- step 1 -->
-  <rect x="78" y="330" width="924" height="220" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
-  <rect x="100" y="352" width="200" height="44" rx="22" fill="#DA291C"/>
-  <text x="200" y="382" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">① 拉取真实数据</text>
-  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#7A4A1E" text-anchor="middle">
-    <rect x="110" y="420" width="430" height="48" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="325" y="451">order-list</text>
-    <rect x="560" y="420" width="430" height="48" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="775" y="451">query-my-coupons</text>
-    <rect x="110" y="482" width="430" height="48" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="325" y="513">query-my-account</text>
-    <rect x="560" y="482" width="430" height="48" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="775" y="513">list-nutrition-foods</text>
+  <!-- step 1: read orders -->
+  <rect x="78" y="330" width="924" height="156" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <rect x="100" y="352" width="220" height="44" rx="22" fill="#DA291C"/>
+  <text x="210" y="382" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">① 读取你的订单</text>
+  <text x="340" y="384" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#7A4A1E">授权后拉取订单、优惠券、餐品数据，不碰支付</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="900" fill="#DA291C" text-anchor="middle">
+    <rect x="100" y="420" width="209" height="44" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="204" y="448">10 笔订单</text>
+    <rect x="323" y="420" width="209" height="44" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="427" y="448">402 元消费</text>
+    <rect x="546" y="420" width="209" height="44" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="650" y="448">11 张券</text>
+    <rect x="769" y="420" width="209" height="44" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="873" y="448">3 家门店</text>
   </g>
-  <path d="M 524 562 L 556 562 L 540 590 Z" fill="#DA291C"/>
+  <path d="M 528 494 L 552 494 L 540 512 Z" fill="#DA291C"/>
 
-  <!-- step 2 -->
-  <rect x="78" y="600" width="924" height="250" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
-  <rect x="100" y="622" width="200" height="44" rx="22" fill="#2C6E8A"/>
-  <text x="200" y="652" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">② 四轴评分</text>
+  <!-- step 2: four axes scoring -->
+  <rect x="78" y="518" width="924" height="210" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <rect x="100" y="540" width="220" height="44" rx="22" fill="#2C6E8A"/>
+  <text x="210" y="570" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">② 四轴算分</text>
+  <text x="340" y="572" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#7A4A1E">从你的点单习惯，算出 8 个方向的得分</text>
+  <!-- axis bars row 1: E, S -->
   <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">
-    <rect x="110" y="684" width="430" height="34" fill="#DA291C"/><text x="325" y="708">E 64</text>
-    <rect x="540" y="684" width="430" height="34" fill="#4298B4"/><text x="755" y="708">I 36</text>
-    <rect x="110" y="724" width="430" height="34" fill="#33A47D"/><text x="325" y="748">S 61</text>
-    <rect x="540" y="724" width="430" height="34" fill="#88619A"/><text x="755" y="748">N 39</text>
-    <rect x="110" y="764" width="430" height="34" fill="#2C6E8A"/><text x="325" y="788">T 77</text>
-    <rect x="540" y="764" width="430" height="34" fill="#E07B39"/><text x="755" y="788">F 23</text>
-    <rect x="110" y="804" width="430" height="34" fill="#C2185B"/><text x="325" y="828">J 38</text>
-    <rect x="540" y="804" width="430" height="34" fill="#E4AE3A"/><text x="755" y="828">P 62</text>
+    <rect x="110" y="612" width="52" height="28" rx="8" fill="#DA291C"/><text x="136" y="632">E</text>
+    <rect x="560" y="612" width="52" height="28" rx="8" fill="#33A47D"/><text x="586" y="632">S</text>
   </g>
-  <path d="M 524 862 L 556 862 L 540 890 Z" fill="#DA291C"/>
+  <rect x="174" y="612" width="320" height="28" rx="14" fill="#F3EAD2"/>
+  <rect x="174" y="612" width="205" height="28" rx="14" fill="#DA291C"/>
+  <text x="506" y="633" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="900" fill="#2B2118">64</text>
+  <text x="484" y="632" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#C9B888" text-anchor="end">I 36</text>
+  <rect x="624" y="612" width="320" height="28" rx="14" fill="#F3EAD2"/>
+  <rect x="624" y="612" width="195" height="28" rx="14" fill="#33A47D"/>
+  <text x="956" y="633" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="900" fill="#2B2118">61</text>
+  <text x="934" y="632" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#C9B888" text-anchor="end">N 39</text>
+  <!-- axis bars row 2: T, P -->
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+    <rect x="110" y="672" width="52" height="28" rx="8" fill="#2C6E8A"/><text x="136" y="692">T</text>
+    <rect x="560" y="672" width="52" height="28" rx="8" fill="#E4AE3A"/><text x="586" y="692">P</text>
+  </g>
+  <rect x="174" y="672" width="320" height="28" rx="14" fill="#F3EAD2"/>
+  <rect x="174" y="672" width="246" height="28" rx="14" fill="#2C6E8A"/>
+  <text x="506" y="693" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="900" fill="#2B2118">77</text>
+  <text x="484" y="692" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#C9B888" text-anchor="end">F 23</text>
+  <rect x="624" y="672" width="320" height="28" rx="14" fill="#F3EAD2"/>
+  <rect x="624" y="672" width="198" height="28" rx="14" fill="#E4AE3A"/>
+  <text x="956" y="693" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="900" fill="#2B2118">62</text>
+  <text x="934" y="692" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" fill="#C9B888" text-anchor="end">J 38</text>
+  <path d="M 528 736 L 552 736 L 540 754 Z" fill="#DA291C"/>
 
-  <!-- step 3 -->
-  <rect x="78" y="900" width="924" height="150" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
-  <rect x="100" y="922" width="250" height="44" rx="22" fill="#88619A"/>
-  <text x="225" y="952" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">③ 匹配 16 型人格</text>
-  <rect x="110" y="986" width="320" height="48" rx="24" fill="#DA291C"/>
-  <text x="270" y="1017" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">ENTP · 麦门发明家</text>
+  <!-- step 3: match persona -->
+  <rect x="78" y="760" width="924" height="144" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <rect x="100" y="782" width="220" height="44" rx="22" fill="#88619A"/>
+  <text x="210" y="812" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">③ 匹配人格</text>
+  <text x="340" y="814" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#7A4A1E">16 型麦门人格里，你是哪一个</text>
+  <rect x="100" y="846" width="290" height="44" rx="22" fill="#DA291C"/>
+  <text x="245" y="874" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">ENTP · 麦门发明家</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="19" fill="#7A4A1E" text-anchor="middle">
+    <rect x="410" y="846" width="104" height="44" rx="22" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="462" y="874">猎奇 84</text>
+    <rect x="526" y="846" width="104" height="44" rx="22" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="578" y="874">嗜辣 95</text>
+    <rect x="642" y="846" width="104" height="44" rx="22" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="694" y="874">夜猫 47</text>
+    <rect x="758" y="846" width="104" height="44" rx="22" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="810" y="874">精算 73</text>
+    <rect x="874" y="846" width="104" height="44" rx="22" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="926" y="874">分享 95</text>
+  </g>
+  <path d="M 528 912 L 552 912 L 540 930 Z" fill="#DA291C"/>
+
+  <!-- step 4: output card -->
+  <rect x="78" y="936" width="924" height="580" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <rect x="100" y="958" width="220" height="44" rx="22" fill="#33A47D"/>
+  <text x="210" y="988" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">④ 拿到鉴定卡</text>
+  <text x="340" y="990" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#7A4A1E">跑完就有，一张能直接晒的卡</text>
+  <rect x="104" y="1018" width="220" height="482" rx="14" fill="#FFF9EC" stroke="#E8D9B0" stroke-width="2"/>
+  <image href="card.svg" x="110" y="1018" width="233" height="482" preserveAspectRatio="xMidYMin meet"/>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" fill="#7A4A1E">
+    <rect x="380" y="1039" width="12" height="12" fill="#DA291C"/><text x="406" y="1052">鉴定卡图片，晒群晒朋友圈直接能用</text>
+    <rect x="380" y="1105" width="12" height="12" fill="#4298B4"/><text x="406" y="1118">每项得分怎么算的，数据里都能看到</text>
+    <rect x="380" y="1171" width="12" height="12" fill="#33A47D"/><text x="406" y="1184">每周自动刷新，看看人格会不会变</text>
+    <rect x="380" y="1237" width="12" height="12" fill="#E4AE3A"/><text x="406" y="1250">订单太少会如实说，不编数据</text>
+    <rect x="380" y="1303" width="12" height="12" fill="#88619A"/><text x="406" y="1316">一条命令就能跑，不用装环境</text>
+    <rect x="380" y="1369" width="12" height="12" fill="#2B2118"/><text x="406" y="1382">只读订单，不下单、不领券</text>
+  </g>
+
+  <!-- intro card (moved to the end) -->
+  <rect x="78" y="1534" width="924" height="166" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <text x="108" y="1576" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="900" fill="#DA291C">这是个什么项目？</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" fill="#7A4A1E">
+    <text x="108" y="1612">麦当劳程序员创意开发大赛的参赛作品，开源、免费。</text>
+    <text x="108" y="1640">授权后读取你的真实订单，从点单习惯算出你的人格，生成一张能晒的鉴定卡。</text>
+  </g>
   <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#7A4A1E" text-anchor="middle">
-    <rect x="450" y="986" width="100" height="48" rx="24" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="500" y="1016">猎奇 84</text>
-    <rect x="560" y="986" width="100" height="48" rx="24" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="610" y="1016">嗜辣 95</text>
-    <rect x="670" y="986" width="100" height="48" rx="24" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="720" y="1016">夜猫 47</text>
-    <rect x="780" y="986" width="100" height="48" rx="24" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="830" y="1016">精算 73</text>
-    <rect x="890" y="986" width="100" height="48" rx="24" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="940" y="1016">分享 95</text>
-  </g>
-  <path d="M 524 1062 L 556 1062 L 540 1090 Z" fill="#DA291C"/>
-
-  <!-- step 4 -->
-  <rect x="100" y="1100" width="220" height="44" rx="22" fill="#33A47D"/>
-  <text x="210" y="1130" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">④ 输出鉴定卡</text>
-  <rect x="100" y="1160" width="251" height="520" rx="16" fill="#FFFFFF"/>
-  <rect x="106" y="1166" width="239" height="508" rx="12" fill="#FFF9EC" stroke="#E8D9B0" stroke-width="2"/>
-  <image href="card.svg" x="114" y="1174" width="223" height="462" preserveAspectRatio="xMidYMin meet"/>
-  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" fill="#7A4A1E">
-    <rect x="420" y="1198" width="12" height="12" fill="#DA291C"/><text x="446" y="1211">persona.svg 人格卡，晒群即用</text>
-    <rect x="420" y="1254" width="12" height="12" fill="#4298B4"/><text x="446" y="1267">persona.json 结构化数据</text>
-    <rect x="420" y="1310" width="12" height="12" fill="#33A47D"/><text x="446" y="1323">每周一自动刷新人格卡</text>
-    <rect x="420" y="1366" width="12" height="12" fill="#E4AE3A"/><text x="446" y="1379">订单 &lt; 3 单诚实降级不编造</text>
-    <rect x="420" y="1422" width="12" height="12" fill="#88619A"/><text x="446" y="1435">纯 Python 标准库零依赖</text>
-    <rect x="420" y="1478" width="12" height="12" fill="#2B2118"/><text x="446" y="1491">只读订单，不下单不领券</text>
+    <rect x="108" y="1656" width="207" height="38" rx="19" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="211" y="1681">大赛参赛作品</text>
+    <rect x="327" y="1656" width="207" height="38" rx="19" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="430" y="1681">代码开源可审</text>
+    <rect x="546" y="1656" width="207" height="38" rx="19" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="649" y="1681">完全免费</text>
+    <rect x="765" y="1656" width="207" height="38" rx="19" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="868" y="1681">只读 · 不开券</text>
   </g>
 
   <!-- CTA -->
-  <rect x="0" y="1720" width="1080" height="200" fill="url(#hdr)"/>
-  <rect x="0" y="1720" width="1080" height="6" fill="#FFC72C"/>
+  <rect x="0" y="1710" width="1080" height="210" fill="url(#hdr)"/>
+  <rect x="0" y="1710" width="1080" height="6" fill="#FFC72C"/>
   <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">
-    <text x="540" y="1796" font-size="42" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
-    <text x="540" y="1856" font-size="26" fill="#FFE9B8">代码全开源可审 · 点星教程看评论区</text>
+    <text x="540" y="1790" font-size="44" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
+    <text x="540" y="1854" font-size="28" fill="#FFE9B8">代码全开源可审 · 点星教程看下一张</text>
   </g>
 </svg>
