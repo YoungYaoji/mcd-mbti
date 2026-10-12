@@ -118,7 +118,9 @@ def build_svg(persona: dict, width: int = 680) -> str:
         dom_ratio = left_ratio if dominant == left_letter else right_ratio
         fill_w = max(11, bar_w * dom_ratio)
         dom_color = color_a if dominant == left_letter else color_b
-        parts.append(f'<rect x="{bar_x}" y="{ay + 4}" width="{fill_w}" height="22" rx="11" fill="{dom_color}"/>')
+        # 天平式填充：dominant 在哪一侧，就从那一侧向内填充，保证视觉与字母极性一致
+        fill_x = bar_x if dominant == left_letter else bar_x + bar_w - fill_w
+        parts.append(f'<rect x="{fill_x}" y="{ay + 4}" width="{fill_w}" height="22" rx="11" fill="{dom_color}"/>')
         # 字母标注
         la_color = color_a if left_letter == dominant else GREY
         rb_color = color_b if right_letter == dominant else GREY

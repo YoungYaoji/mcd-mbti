@@ -24,7 +24,7 @@
 <text x="60" y="470" font-size="13" fill="#27251F" text-anchor="start" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="700">点单风格</text>
 <text x="60" y="488" font-size="11" fill="#8A8378" text-anchor="start" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="400">S · N</text>
 <rect x="190" y="458" width="380" height="22" rx="11" fill="#EFE6D0"/>
-<rect x="190" y="458" width="231.79999999999998" height="22" rx="11" fill="#B5651D"/>
+<rect x="338.20000000000005" y="458" width="231.79999999999998" height="22" rx="11" fill="#B5651D"/>
 <text x="176" y="474" font-size="13" fill="#8A8378" text-anchor="end" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="400">S</text>
 <text x="584" y="474" font-size="13" fill="#B5651D" text-anchor="start" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="800">N</text>
 <text x="622" y="474" font-size="13" fill="#27251F" text-anchor="start" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="700">N 61%</text>
@@ -38,7 +38,7 @@
 <text x="60" y="586" font-size="13" fill="#27251F" text-anchor="start" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="700">时间节律</text>
 <text x="60" y="604" font-size="11" fill="#8A8378" text-anchor="start" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="400">J · P</text>
 <rect x="190" y="574" width="380" height="22" rx="11" fill="#EFE6D0"/>
-<rect x="190" y="574" width="235.6" height="22" rx="11" fill="#E65100"/>
+<rect x="334.4" y="574" width="235.6" height="22" rx="11" fill="#E65100"/>
 <text x="176" y="590" font-size="13" fill="#8A8378" text-anchor="end" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="400">J</text>
 <text x="584" y="590" font-size="13" fill="#E65100" text-anchor="start" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="800">P</text>
 <text x="622" y="590" font-size="13" fill="#27251F" text-anchor="start" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif" font-weight="700">P 62%</text>
