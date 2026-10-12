@@ -112,21 +112,19 @@ def build_svg(persona: dict, width: int = 680) -> str:
         # 轴标签
         parts.append(_t(60, ay + 16, 13, INK, label, "start", "700"))
         parts.append(_t(60, ay + 34, 11, GREY, f"{left_letter} · {right_letter}", "start"))
-        # 天平条
-        bar_x, bar_w = 190, 380
-        parts.append(f'<rect x="{bar_x}" y="{ay + 4}" width="{bar_w}" height="22" rx="11" fill="#EFE6D0"/>')
-        dom_ratio = left_ratio if dominant == left_letter else right_ratio
-        fill_w = max(11, bar_w * dom_ratio)
-        dom_color = color_a if dominant == left_letter else color_b
-        # 天平式填充：dominant 在哪一侧，就从那一侧向内填充，保证视觉与字母极性一致
-        fill_x = bar_x if dominant == left_letter else bar_x + bar_w - fill_w
-        parts.append(f'<rect x="{fill_x}" y="{ay + 4}" width="{fill_w}" height="22" rx="11" fill="{dom_color}"/>')
+        # 天平条：左右两段双色对峙，条恒定填满，分界点即两极占比
+        bar_x, bar_w = 186, 336
+        left_w = max(11, bar_w * left_ratio)
+        parts.append(f'<rect x="{bar_x}" y="{ay + 4}" width="{left_w}" height="22" rx="11" fill="{color_a}"/>')
+        parts.append(f'<rect x="{bar_x + left_w}" y="{ay + 4}" width="{bar_w - left_w}" height="22" rx="11" fill="{color_b}"/>')
+        # 中缝分界线
+        parts.append(f'<rect x="{bar_x + left_w - 1.5}" y="{ay + 2}" width="3" height="26" rx="1.5" fill="#FFFDF6"/>')
         # 字母标注
         la_color = color_a if left_letter == dominant else GREY
         rb_color = color_b if right_letter == dominant else GREY
         parts.append(_t(bar_x - 14, ay + 20, 13, la_color, left_letter, "end", "800" if left_letter == dominant else "400"))
         parts.append(_t(bar_x + bar_w + 14, ay + 20, 13, rb_color, right_letter, "start", "800" if right_letter == dominant else "400"))
-        parts.append(_t(bar_x + bar_w + 52, ay + 20, 13, INK, f"{dominant} {int(round(dom_ratio * 100))}%", "start", "700"))
+        parts.append(_t(bar_x + bar_w + 44, ay + 20, 13, INK, f"{dominant} {int(round(max(left_ratio, right_ratio) * 100))}%", "start", "700"))
         ay += 58
 
     y += axis_block_h + 22
