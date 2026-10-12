@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DA291C"/>
+      <stop offset="1" stop-color="#B01F14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="#FFF6E3"/>
+  <rect width="1080" height="16" fill="#FFC72C"/>
+
+  <!-- header -->
+  <g transform="translate(78,58)">
+    <path d="M 0 92 V 30 Q 0 8 22 8 Q 44 8 44 42 V 70 Q 44 88 62 88 Q 80 88 80 70 V 42 Q 80 8 102 8 Q 124 8 124 30 V 92"
+          fill="none" stroke="#FFC72C" stroke-width="17" stroke-linecap="round"/>
+  </g>
+  <text x="238" y="106" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="54" font-weight="900" fill="#DA291C" letter-spacing="3">麦门人格鉴定所</text>
+  <text x="240" y="148" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">你的麦当劳订单，藏着你的人格密码</text>
+  <line x1="78" y1="184" x2="1002" y2="184" stroke="#E8D9B0" stroke-width="2"/>
+
+  <!-- headline -->
+  <text x="78" y="264" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="42" fill="#7A4A1E">麦当劳翻了我的订单，然后——</text>
+  <text x="78" y="396" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="118" font-weight="900" fill="#DA291C">嗜辣度 95%</text>
+  <text x="78" y="452" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" fill="#7A4A1E">不是答题测的 · 是我一笔一笔真实订单算出来的</text>
+
+  <!-- side stickers -->
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+    <g transform="rotate(-6 150 640)">
+      <rect x="60" y="596" width="180" height="88" rx="14" fill="#2B2118"/>
+      <text x="150" y="632" font-size="21" fill="#C9B98F" text-anchor="middle">近 10 单消费</text>
+      <text x="150" y="666" font-size="34" font-weight="900" fill="#FFC72C" text-anchor="middle">402 元</text>
+    </g>
+    <g transform="rotate(4 150 850)">
+      <rect x="60" y="806" width="180" height="88" rx="14" fill="#FFFFFF" stroke="#4298B4" stroke-width="3"/>
+      <text x="150" y="842" font-size="21" fill="#9A8B6C" text-anchor="middle">足迹门店</text>
+      <text x="150" y="876" font-size="34" font-weight="900" fill="#35789A" text-anchor="middle">3 家</text>
+    </g>
+    <g transform="rotate(-4 150 1060)">
+      <rect x="56" y="1016" width="188" height="88" rx="14" fill="#FFFFFF" stroke="#33A47D" stroke-width="3"/>
+      <text x="150" y="1052" font-size="21" fill="#9A8B6C" text-anchor="middle">没用完的券</text>
+      <text x="150" y="1086" font-size="34" font-weight="900" fill="#2A8763" text-anchor="middle">11 张</text>
+    </g>
+    <g transform="rotate(5 930 700)">
+      <rect x="840" y="656" width="180" height="88" rx="14" fill="#FFFFFF" stroke="#DA291C" stroke-width="3"/>
+      <text x="930" y="692" font-size="21" fill="#9A8B6C" text-anchor="middle">人格型号</text>
+      <text x="930" y="726" font-size="34" font-weight="900" fill="#DA291C" text-anchor="middle">ENTP</text>
+    </g>
+    <g transform="rotate(-5 930 910)">
+      <rect x="836" y="866" width="188" height="88" rx="14" fill="#FFFFFF" stroke="#88619A" stroke-width="3"/>
+      <text x="930" y="902" font-size="21" fill="#9A8B6C" text-anchor="middle">新品命中</text>
+      <text x="930" y="936" font-size="34" font-weight="900" fill="#6B4A82" text-anchor="middle">52%</text>
+    </g>
+    <g transform="rotate(4 930 1120)">
+      <rect x="840" y="1076" width="180" height="88" rx="14" fill="#FFFFFF" stroke="#E4AE3A" stroke-width="3"/>
+      <text x="930" y="1112" font-size="21" fill="#9A8B6C" text-anchor="middle">精算度</text>
+      <text x="930" y="1146" font-size="34" font-weight="900" fill="#C9920E" text-anchor="middle">73%</text>
+    </g>
+  </g>
+
+  <!-- persona card -->
+  <rect x="323" y="500" width="434" height="898" rx="24" fill="#FFFFFF"/>
+  <rect x="329" y="506" width="422" height="886" rx="20" fill="#FFF9EC" stroke="#E8D9B0" stroke-width="2"/>
+  <image href="card.svg" x="337" y="514" width="406" height="840" preserveAspectRatio="xMidYMin meet"/>
+
+  <!-- strip -->
+  <rect x="140" y="1450" width="800" height="72" rx="36" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <text x="540" y="1496" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" font-weight="900" fill="#DA291C" text-anchor="middle">四轴全部由真实订单计算 · 不是答题</text>
+
+  <!-- CTA -->
+  <rect x="0" y="1560" width="1080" height="360" fill="url(#hdr)"/>
+  <rect x="0" y="1560" width="1080" height="6" fill="#FFC72C"/>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">
+    <text x="540" y="1656" font-size="46" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
+    <text x="540" y="1718" font-size="30" fill="#FFE9B8">测测你是什么麦门人格</text>
+  </g>
+  <rect x="290" y="1752" width="500" height="66" rx="33" fill="#FFC72C"/>
+  <text x="540" y="1796" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="900" fill="#7A4A1E" text-anchor="middle">点亮 ⭐ 三步教程 → 评论区置顶</text>
+  <text x="540" y="1876" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#FFE9B8" text-anchor="middle">开源参赛作品 · 麦当劳程序员创意开发大赛</text>
+</svg>

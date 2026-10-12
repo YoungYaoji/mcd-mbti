@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DA291C"/>
+      <stop offset="1" stop-color="#B01F14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1440" fill="#FFF6E3"/>
+  <rect width="1080" height="16" fill="#FFC72C"/>
+
+  <!-- header -->
+  <g transform="translate(78,58)">
+    <path d="M 0 92 V 30 Q 0 8 22 8 Q 44 8 44 42 V 70 Q 44 88 62 88 Q 80 88 80 70 V 42 Q 80 8 102 8 Q 124 8 124 30 V 92"
+          fill="none" stroke="#FFC72C" stroke-width="17" stroke-linecap="round"/>
+  </g>
+  <text x="238" y="106" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="54" font-weight="900" fill="#DA291C" letter-spacing="3">麦门人格鉴定所</text>
+  <text x="240" y="148" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">项目效果 Demo · 从订单到人格卡</text>
+  <line x1="78" y1="184" x2="1002" y2="184" stroke="#E8D9B0" stroke-width="2"/>
+
+  <!-- title -->
+  <text x="78" y="252" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="46" font-weight="900" fill="#DA291C">不是答题测的，是一笔一笔算出来的</text>
+  <text x="78" y="294" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">四轴评分全部来自你的真实订单</text>
+
+  <!-- step 1: data -->
+  <rect x="78" y="320" width="924" height="132" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <rect x="100" y="340" width="200" height="44" rx="22" fill="#DA291C"/>
+  <text x="200" y="370" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">① 拉取真实数据</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#7A4A1E" text-anchor="middle">
+    <rect x="100" y="398" width="205" height="40" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/>
+    <text x="202" y="424">order-list</text>
+    <rect x="320" y="398" width="205" height="40" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/>
+    <text x="422" y="424">query-my-coupons</text>
+    <rect x="540" y="398" width="205" height="40" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/>
+    <text x="642" y="424">query-my-account</text>
+    <rect x="760" y="398" width="205" height="40" rx="10" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/>
+    <text x="862" y="424">list-nutrition-foods</text>
+  </g>
+  <path d="M 524 462 L 556 462 L 540 490 Z" fill="#DA291C"/>
+
+  <!-- step 2: four axes -->
+  <rect x="78" y="500" width="924" height="132" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <rect x="100" y="520" width="200" height="44" rx="22" fill="#2C6E8A"/>
+  <text x="200" y="550" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">② 四轴评分</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+    <rect x="100" y="580" width="102" height="36" rx="8" fill="#DA291C"/><text x="151" y="605">E 64</text>
+    <rect x="202" y="580" width="103" height="36" rx="8" fill="#4298B4"/><text x="253" y="605">I 36</text>
+    <rect x="320" y="580" width="102" height="36" rx="8" fill="#33A47D"/><text x="371" y="605">S 61</text>
+    <rect x="422" y="580" width="103" height="36" rx="8" fill="#88619A"/><text x="473" y="605">N 39</text>
+    <rect x="540" y="580" width="102" height="36" rx="8" fill="#2C6E8A"/><text x="591" y="605">T 77</text>
+    <rect x="642" y="580" width="103" height="36" rx="8" fill="#E07B39"/><text x="693" y="605">F 23</text>
+    <rect x="760" y="580" width="102" height="36" rx="8" fill="#C2185B"/><text x="811" y="605">J 38</text>
+    <rect x="862" y="580" width="103" height="36" rx="8" fill="#E4AE3A"/><text x="913" y="605">P 62</text>
+  </g>
+  <path d="M 524 642 L 556 642 L 540 670 Z" fill="#DA291C"/>
+
+  <!-- step 3: match persona -->
+  <rect x="78" y="680" width="924" height="120" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <rect x="100" y="698" width="250" height="44" rx="22" fill="#88619A"/>
+  <text x="225" y="728" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">③ 匹配 16 型人格</text>
+  <rect x="370" y="754" width="300" height="40" rx="20" fill="#DA291C"/>
+  <text x="520" y="781" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">ENTP · 麦门发明家</text>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#7A4A1E" text-anchor="middle">
+    <rect x="690" y="754" width="110" height="40" rx="20" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="745" y="780">猎奇 84</text>
+    <rect x="750" y="754" width="110" height="40" rx="20" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="805" y="780">嗜辣 95</text>
+    <rect x="810" y="754" width="110" height="40" rx="20" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="865" y="780">夜猫 47</text>
+    <rect x="870" y="754" width="110" height="40" rx="20" fill="#FFF6E3" stroke="#E8D9B0" stroke-width="1.5"/><text x="925" y="780">精算 73</text>
+  </g>
+  <path d="M 524 808 L 556 808 L 540 836 Z" fill="#DA291C"/>
+
+  <!-- step 4: output card -->
+  <rect x="100" y="848" width="220" height="44" rx="22" fill="#33A47D"/>
+  <text x="210" y="878" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">④ 输出鉴定卡</text>
+  <rect x="110" y="906" width="200" height="380" rx="16" fill="#FFFFFF"/>
+  <rect x="116" y="912" width="188" height="368" rx="12" fill="#FFF9EC" stroke="#E8D9B0" stroke-width="2"/>
+  <image href="card.svg" x="124" y="920" width="172" height="356" preserveAspectRatio="xMidYMin meet"/>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">
+    <rect x="352" y="938" width="12" height="12" fill="#DA291C"/><text x="378" y="950">persona.svg 人格卡，晒群晒朋友圈即用</text>
+    <rect x="352" y="990" width="12" height="12" fill="#4298B4"/><text x="378" y="1002">persona.json 结构化数据，方便二次开发</text>
+    <rect x="352" y="1042" width="12" height="12" fill="#33A47D"/><text x="378" y="1054">GitHub Action 每周一自动刷新人格卡</text>
+    <rect x="352" y="1094" width="12" height="12" fill="#E4AE3A"/><text x="378" y="1106">订单不足 3 单 →「尝鲜体验版」，不编造</text>
+    <rect x="352" y="1146" width="12" height="12" fill="#88619A"/><text x="378" y="1158">纯 Python 标准库，零依赖</text>
+    <rect x="352" y="1198" width="12" height="12" fill="#2B2118"/><text x="378" y="1210">全程只读订单，不下单、不领券</text>
+  </g>
+
+  <!-- CTA -->
+  <rect x="0" y="1300" width="1080" height="140" fill="url(#hdr)"/>
+  <rect x="0" y="1300" width="1080" height="6" fill="#FFC72C"/>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">
+    <text x="540" y="1362" font-size="38" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
+    <text x="540" y="1410" font-size="26" fill="#FFE9B8">代码全开源可审 · 点星三步教程看下一张</text>
+  </g>
+</svg>

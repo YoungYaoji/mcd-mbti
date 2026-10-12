@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DA291C"/>
+      <stop offset="1" stop-color="#B01F14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1440" fill="#FFF6E3"/>
+  <rect width="1080" height="16" fill="#FFC72C"/>
+
+  <!-- header -->
+  <g transform="translate(78,58)">
+    <path d="M 0 92 V 30 Q 0 8 22 8 Q 44 8 44 42 V 70 Q 44 88 62 88 Q 80 88 80 70 V 42 Q 80 8 102 8 Q 124 8 124 30 V 92"
+          fill="none" stroke="#FFC72C" stroke-width="17" stroke-linecap="round"/>
+  </g>
+  <text x="238" y="106" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="54" font-weight="900" fill="#DA291C" letter-spacing="3">麦门人格鉴定所</text>
+  <text x="240" y="148" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="26" fill="#7A4A1E">你的麦当劳订单，藏着你的人格密码</text>
+  <line x1="78" y1="184" x2="1002" y2="184" stroke="#E8D9B0" stroke-width="2"/>
+
+  <!-- headline -->
+  <text x="78" y="252" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="50" font-weight="900" fill="#DA291C">麦当劳订单测出来我是</text>
+  <text x="78" y="318" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="50" font-weight="900" fill="#DA291C">麦门发明家</text>
+  <rect x="356" y="272" width="132" height="54" rx="27" fill="#2B2118"/>
+  <text x="422" y="309" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" font-weight="900" fill="#FFC72C" text-anchor="middle">ENTP</text>
+
+  <!-- side stickers -->
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+    <g transform="rotate(-6 140 452)">
+      <rect x="52" y="408" width="176" height="88" rx="14" fill="#FFFFFF" stroke="#DA291C" stroke-width="3"/>
+      <text x="140" y="444" font-size="21" fill="#9A8B6C" text-anchor="middle">嗜辣度</text>
+      <text x="140" y="478" font-size="34" font-weight="900" fill="#DA291C" text-anchor="middle">95%</text>
+    </g>
+    <g transform="rotate(4 140 640)">
+      <rect x="52" y="596" width="176" height="88" rx="14" fill="#FFFFFF" stroke="#88619A" stroke-width="3"/>
+      <text x="140" y="632" font-size="21" fill="#9A8B6C" text-anchor="middle">新品命中</text>
+      <text x="140" y="666" font-size="34" font-weight="900" fill="#6B4A82" text-anchor="middle">52%</text>
+    </g>
+    <g transform="rotate(-4 140 828)">
+      <rect x="48" y="784" width="184" height="88" rx="14" fill="#FFFFFF" stroke="#4298B4" stroke-width="3"/>
+      <text x="140" y="820" font-size="21" fill="#9A8B6C" text-anchor="middle">深夜下单</text>
+      <text x="140" y="854" font-size="34" font-weight="900" fill="#35789A" text-anchor="middle">47%</text>
+    </g>
+    <g transform="rotate(5 950 492)">
+      <rect x="862" y="448" width="176" height="88" rx="14" fill="#FFFFFF" stroke="#33A47D" stroke-width="3"/>
+      <text x="950" y="484" font-size="21" fill="#9A8B6C" text-anchor="middle">分享狂魔</text>
+      <text x="950" y="518" font-size="34" font-weight="900" fill="#2A8763" text-anchor="middle">95%</text>
+    </g>
+    <g transform="rotate(-5 950 680)">
+      <rect x="856" y="636" width="172" height="88" rx="14" fill="#FFFFFF" stroke="#E4AE3A" stroke-width="3"/>
+      <text x="942" y="672" font-size="21" fill="#9A8B6C" text-anchor="middle">精算度</text>
+      <text x="942" y="706" font-size="34" font-weight="900" fill="#C9920E" text-anchor="middle">73%</text>
+    </g>
+    <g transform="rotate(4 950 868)">
+      <rect x="860" y="824" width="180" height="88" rx="14" fill="#2B2118"/>
+      <text x="950" y="860" font-size="21" fill="#C9B98F" text-anchor="middle">真实订单 10 单</text>
+      <text x="950" y="894" font-size="30" font-weight="900" fill="#FFC72C" text-anchor="middle">全部可复现</text>
+    </g>
+  </g>
+
+  <!-- persona card -->
+  <g>
+    <rect x="330" y="370" width="420" height="830" rx="22" fill="#FFFFFF"/>
+    <rect x="336" y="376" width="408" height="818" rx="18" fill="#FFF9EC" stroke="#E8D9B0" stroke-width="2"/>
+    <image href="card.svg" x="344" y="384" width="392" height="810" preserveAspectRatio="xMidYMin meet"/>
+  </g>
+
+  <!-- CTA -->
+  <rect x="0" y="1256" width="1080" height="184" fill="url(#hdr)"/>
+  <rect x="0" y="1256" width="1080" height="6" fill="#FFC72C"/>
+  <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">
+    <text x="540" y="1324" font-size="40" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
+    <text x="540" y="1384" font-size="27" fill="#FFE9B8">点亮 ⭐ 即是麦门认证 · 点星三步教程看下一张</text>
+  </g>
+  <text x="1002" y="1324" font-family="'Microsoft YaHei',sans-serif" font-size="24" fill="#FFE9B8" text-anchor="end">开源参赛作品</text>
+</svg>
