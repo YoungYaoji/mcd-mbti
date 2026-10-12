@@ -5,7 +5,7 @@
 拉取你的麦当劳历史订单，从点单行为里解析出你的「麦门 MBTI」人格：
 猎奇还是守旧、精算还是豪掷、晨型还是夜猫、独食还是分享——四轴评分 + 16 型人格 + 一张可晒的鉴定卡。
 
-![示例鉴定卡](examples/example-persona.svg)
+![示例鉴定卡](examples/example-persona.png)
 
 ## ✨ 特色
 
