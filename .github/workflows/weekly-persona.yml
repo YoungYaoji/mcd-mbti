@@ -1,0 +1,47 @@
+name: weekly-persona
+
+# 每周一自动刷新人格鉴定卡：人格会随订单积累而演化，
+# 让仓库保持「活」的状态，访客每次来都有新卡片可看。
+
+on:
+  schedule:
+    - cron: "30 16 * * 1"   # 北京时间周一 00:30
+  workflow_dispatch:          # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 生成人格鉴定卡
+        env:
+          MCD_MCP_TOKEN: ${{ secrets.MCD_MCP_TOKEN }}
+        run: |
+          if [ -z "$MCD_MCP_TOKEN" ]; then
+            echo "未配置 MCD_MCP_TOKEN secret，使用演示模式"
+            python scripts/run.py --mock --out output
+          else
+            python scripts/run.py --out output
+          fi
+
+      - name: 归档到 gallery/
+        run: |
+          mkdir -p gallery
+          cp output/persona.svg "gallery/persona-$(date +%Y-%m-%d).svg"
+          cp output/persona.json "gallery/persona-$(date +%Y-%m-%d).json"
+
+      - name: 提交更新
+        run: |
+          git config user.name "mcd-mbti-bot"
+          git config user.email "mcd-mbti-bot@users.noreply.github.com"
+          git add output/ gallery/
+          git diff --staged --quiet || git commit -m "chore: 每周人格刷新 $(date +%Y-%m-%d)"
+          git push

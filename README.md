@@ -81,6 +81,12 @@ output/persona.svg        可分享的人格鉴定卡
 - `scripts/orders` 逻辑内置于 `persona.py`：餐品计数、经典/新品判定、辣度、时段分桶、门店去重
 - `scripts/run.py` —— 命令行入口（`--mock` / `--text`）
 
+## 🔄 每周人格刷新
+
+仓库内置 GitHub Action（`.github/workflows/weekly-persona.yml`）：每周一自动重新鉴定一次，
+把新卡片归档到 `gallery/`——人格会随订单积累而演化，访客每次来都有新卡片可看。
+配置一个 repo secret `MCD_MCP_TOKEN` 即可启用（不配则自动用演示模式兜底）。
+
 ## 📡 MCP 工具清单
 
 | Tool | 用途 |
