@@ -29,25 +29,25 @@
       <text x="131" y="456" font-size="34" font-weight="900" fill="#DA291C" text-anchor="middle">95%</text>
     </g>
     <g transform="rotate(5 150 620)">
-      <rect x="52" y="576" width="176" height="88" rx="14" fill="#FFFFFF" stroke="#FFC72C" stroke-width="3"/>
+      <rect x="52" y="576" width="176" height="88" rx="14" fill="#FFFFFF" stroke="#88619A" stroke-width="3"/>
       <text x="140" y="612" font-size="21" fill="#9A8B6C" text-anchor="middle">新品命中</text>
-      <text x="140" y="646" font-size="34" font-weight="900" fill="#D98E04" text-anchor="middle">52%</text>
+      <text x="140" y="646" font-size="34" font-weight="900" fill="#6B4A82" text-anchor="middle">52%</text>
     </g>
     <g transform="rotate(-4 150 810)">
-      <rect x="48" y="766" width="184" height="88" rx="14" fill="#FFFFFF" stroke="#7A4A1E" stroke-width="3"/>
+      <rect x="48" y="766" width="184" height="88" rx="14" fill="#FFFFFF" stroke="#4298B4" stroke-width="3"/>
       <text x="140" y="802" font-size="21" fill="#9A8B6C" text-anchor="middle">深夜下单</text>
-      <text x="140" y="836" font-size="34" font-weight="900" fill="#7A4A1E" text-anchor="middle">47%</text>
+      <text x="140" y="836" font-size="34" font-weight="900" fill="#35789A" text-anchor="middle">47%</text>
     </g>
     <!-- right -->
     <g transform="rotate(6 950 470)">
-      <rect x="862" y="426" width="176" height="88" rx="14" fill="#FFFFFF" stroke="#DA291C" stroke-width="3"/>
+      <rect x="862" y="426" width="176" height="88" rx="14" fill="#FFFFFF" stroke="#33A47D" stroke-width="3"/>
       <text x="950" y="462" font-size="21" fill="#9A8B6C" text-anchor="middle">分享狂魔</text>
-      <text x="950" y="496" font-size="34" font-weight="900" fill="#DA291C" text-anchor="middle">95%</text>
+      <text x="950" y="496" font-size="34" font-weight="900" fill="#2A8763" text-anchor="middle">95%</text>
     </g>
     <g transform="rotate(-5 940 660)">
-      <rect x="856" y="616" width="172" height="88" rx="14" fill="#FFFFFF" stroke="#FFC72C" stroke-width="3"/>
+      <rect x="856" y="616" width="172" height="88" rx="14" fill="#FFFFFF" stroke="#E4AE3A" stroke-width="3"/>
       <text x="942" y="652" font-size="21" fill="#9A8B6C" text-anchor="middle">精算度</text>
-      <text x="942" y="686" font-size="34" font-weight="900" fill="#D98E04" text-anchor="middle">73%</text>
+      <text x="942" y="686" font-size="34" font-weight="900" fill="#C9920E" text-anchor="middle">73%</text>
     </g>
     <g transform="rotate(4 950 850)">
       <rect x="860" y="806" width="180" height="88" rx="14" fill="#2B2118"/>

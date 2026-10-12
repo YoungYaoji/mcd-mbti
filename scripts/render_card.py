@@ -1,6 +1,6 @@
 """麦门人格鉴定所 · 人格鉴定卡 SVG 渲染器。
 
-风格：现代心理测评卡（麦当劳红黄配色 + 米白纸面），
+风格：现代心理测评卡（MBTI 经典四色 × 麦当劳红黄 + 米白纸面），
 结构：人格代号大字 → 四轴天平 → 麦门成分 → 行为分析 → 相处指南。
 动态测量布局，内容多少自动决定卡片高度。
 """
@@ -9,7 +9,9 @@ from __future__ import annotations
 
 from xml.sax.saxutils import escape
 
-# 配色（麦当劳品牌色系）
+# 配色体系：麦当劳品牌色做框架，MBTI 经典四色做四轴对峙
+#   麦当劳：红 #DA291C / 黄 #FFC72C（品牌条、徽章、成分、相处指南）
+#   MBTI：紫 #88619A / 绿 #33A47D / 蓝 #4298B4 / 金 #E4AE3A（16 型人格经典分组色）
 RED = "#DA291C"
 DARK_RED = "#A4161A"
 YELLOW = "#FFC72C"
@@ -17,16 +19,21 @@ CREAM = "#FFF8E8"
 PAPER = "#FFFDF6"
 INK = "#27251F"
 GREY = "#8A8378"
-GREEN = "#2E7D4F"
-BLUE = "#3D5A99"
+
+# MBTI 经典配色（16personalities 分组色）
+MBTI_PURPLE = "#88619A"   # 分析家 NT
+MBTI_GREEN = "#33A47D"    # 外交家 NF
+MBTI_BLUE = "#4298B4"     # 守护者 SJ
+MBTI_GOLD = "#E4AE3A"     # 探险家 SP
 
 FONT = "'Noto Sans SC','PingFang SC','Microsoft YaHei','Source Han Sans SC',sans-serif"
 
 AXIS_META = {
-    "EI": ("社交能量", "E", "I", RED, BLUE),
-    "SN": ("点单风格", "S", "N", GREEN, "#B5651D"),
-    "TF": ("消费决策", "T", "F", "#5B4FA8", "#C2185B"),
-    "JP": ("时间节律", "J", "P", "#00695C", "#E65100"),
+    # (轴名, 左极, 右极, 左极色, 右极色)
+    "EI": ("社交能量", "E", "I", RED, MBTI_BLUE),        # E 外向热烈=麦当劳红 / I 内敛沉静=MBTI蓝
+    "SN": ("点单风格", "S", "N", MBTI_GREEN, MBTI_PURPLE),  # S 务实具体=MBTI绿 / N 直觉想象=MBTI紫
+    "TF": ("消费决策", "T", "F", "#2C6E8A", "#E07B39"),  # T 理性冷静=MBTI深蓝 / F 感性温暖=暖橙(红黄过渡)
+    "JP": ("时间节律", "J", "P", "#C2185B", MBTI_GOLD),  # J 计划紧致=玫红(红系) / P 随性探索=MBTI金
 }
 
 
