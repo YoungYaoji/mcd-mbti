@@ -44,93 +44,89 @@
   <text x="885" y="431" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="19" font-weight="900" fill="#7A4A1E" text-anchor="middle">只读 · 不开券</text>
   <text x="110" y="480" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="19" font-weight="900" fill="#DA291C">作者实测：ENTP 麦门发明家 · 嗜辣度 95% · 精算度 73%</text>
 
-  <!-- tutorial title -->
-  <text x="78" y="528" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="34" font-weight="900" fill="#DA291C">⭐ 点亮 Star = 投出一票</text>
-  <text x="78" y="558" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="22" fill="#7A4A1E">排名按 GitHub Star · 三步一分钟 · 已登录只要两步</text>
-
   <!-- flow map -->
-  <rect x="78" y="576" width="262" height="48" rx="24" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
-  <text x="209" y="608" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#2B2118" text-anchor="middle">① 打开链接</text>
-  <text x="371" y="608" font-family="'Microsoft YaHei',sans-serif" font-size="26" font-weight="900" fill="#DA291C" text-anchor="middle">→</text>
-  <rect x="406" y="576" width="262" height="48" rx="24" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
-  <text x="537" y="608" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#2B2118" text-anchor="middle">② 注册 / 登录</text>
-  <text x="699" y="608" font-family="'Microsoft YaHei',sans-serif" font-size="26" font-weight="900" fill="#DA291C" text-anchor="middle">→</text>
-  <rect x="734" y="576" width="268" height="48" rx="24" fill="#FFC72C"/>
-  <text x="868" y="608" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#7A4A1E" text-anchor="middle">③ 点亮 Star</text>
+  <rect x="78" y="524" width="262" height="48" rx="24" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <text x="209" y="556" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#2B2118" text-anchor="middle">① 打开链接</text>
+  <text x="371" y="556" font-family="'Microsoft YaHei',sans-serif" font-size="26" font-weight="900" fill="#DA291C" text-anchor="middle">→</text>
+  <rect x="406" y="524" width="262" height="48" rx="24" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <text x="537" y="556" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#2B2118" text-anchor="middle">② 注册 / 登录</text>
+  <text x="699" y="556" font-family="'Microsoft YaHei',sans-serif" font-size="26" font-weight="900" fill="#DA291C" text-anchor="middle">→</text>
+  <rect x="734" y="524" width="268" height="48" rx="24" fill="#FFC72C"/>
+  <text x="868" y="556" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="24" font-weight="900" fill="#7A4A1E" text-anchor="middle">③ 点亮 Star</text>
 
   <!-- step 1 -->
-  <rect x="78" y="638" width="924" height="278" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
-  <circle cx="130" cy="684" r="24" fill="#DA291C"/>
-  <text x="130" y="694" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
-  <text x="176" y="694" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" font-weight="900" fill="#2B2118">打开项目链接</text>
-  <rect x="110" y="710" width="560" height="38" rx="19" fill="#FFFFFF" stroke="#E0D5B8" stroke-width="1.5"/>
-  <text x="134" y="734" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="900" fill="#2B2118">github.com/YoungYaoji/mcd-mbti</text>
-  <text x="700" y="734" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#9A8B6C">复制到手机浏览器打开</text>
+  <rect x="78" y="596" width="924" height="278" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <circle cx="130" cy="642" r="24" fill="#DA291C"/>
+  <text x="130" y="652" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="176" y="652" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" font-weight="900" fill="#2B2118">打开项目链接</text>
+  <rect x="110" y="668" width="560" height="38" rx="19" fill="#FFFFFF" stroke="#E0D5B8" stroke-width="1.5"/>
+  <text x="134" y="692" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="900" fill="#2B2118">github.com/YoungYaoji/mcd-mbti</text>
+  <text x="700" y="692" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#9A8B6C">复制到手机浏览器打开</text>
 
   <!-- mockup: GitHub repo page -->
-  <rect x="110" y="760" width="880" height="140" rx="12" fill="#F7F4EE" stroke="#E0D5B8" stroke-width="1.5"/>
-  <rect x="110" y="760" width="880" height="32" rx="12" fill="#24292F"/>
-  <rect x="110" y="780" width="880" height="12" fill="#24292F"/>
-  <text x="142" y="783" font-family="'Microsoft YaHei',sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">GitHub</text>
-  <rect x="270" y="766" width="180" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.12"/>
-  <text x="286" y="784" font-family="'Microsoft YaHei',sans-serif" font-size="16" fill="#C9D1D9">Search…</text>
-  <rect x="730" y="764" width="100" height="30" rx="8" fill="#1F883D"/>
-  <text x="780" y="784" font-family="'Microsoft YaHei',sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">Sign up</text>
-  <rect x="724" y="758" width="112" height="42" rx="12" fill="none" stroke="#FFC72C" stroke-width="3" stroke-dasharray="8 6"/>
-  <text x="780" y="816" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="900" fill="#DA291C" text-anchor="middle">没账号？先点这里注册</text>
+  <rect x="110" y="718" width="880" height="140" rx="12" fill="#F7F4EE" stroke="#E0D5B8" stroke-width="1.5"/>
+  <rect x="110" y="718" width="880" height="32" rx="12" fill="#24292F"/>
+  <rect x="110" y="738" width="880" height="12" fill="#24292F"/>
+  <text x="142" y="741" font-family="'Microsoft YaHei',sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">GitHub</text>
+  <rect x="270" y="724" width="180" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.12"/>
+  <text x="286" y="742" font-family="'Microsoft YaHei',sans-serif" font-size="16" fill="#C9D1D9">Search…</text>
+  <rect x="730" y="722" width="100" height="30" rx="8" fill="#1F883D"/>
+  <text x="780" y="742" font-family="'Microsoft YaHei',sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">Sign up</text>
+  <rect x="724" y="716" width="112" height="42" rx="12" fill="none" stroke="#FFC72C" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="780" y="774" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="900" fill="#DA291C" text-anchor="middle">没账号？先点这里注册</text>
 
-  <circle cx="156" cy="836" r="14" fill="#DA291C"/>
-  <text x="156" y="841" font-family="'Microsoft YaHei',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">Y</text>
-  <text x="188" y="830" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="21" font-weight="900" fill="#2B2118">YoungYaoji / mcd-mbti</text>
-  <rect x="452" y="820" width="68" height="22" rx="11" fill="none" stroke="#C9B98F" stroke-width="1.5"/>
-  <text x="486" y="836" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="16" fill="#7A4A1E" text-anchor="middle">Public</text>
-  <rect x="140" y="856" width="96" height="32" rx="16" fill="#FFFFFF" stroke="#C9B98F" stroke-width="1.5"/>
-  <text x="188" y="877" font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#7A4A1E" text-anchor="middle">Watch 3</text>
-  <rect x="244" y="856" width="96" height="32" rx="16" fill="#FFFFFF" stroke="#C9B98F" stroke-width="1.5"/>
-  <text x="292" y="877" font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#7A4A1E" text-anchor="middle">Fork 0</text>
-  <rect x="348" y="856" width="116" height="32" rx="16" fill="#FFFFFF" stroke="#C9B98F" stroke-width="1.5"/>
-  <text x="406" y="877" font-family="'Microsoft YaHei',sans-serif" font-size="19" fill="#7A4A1E" text-anchor="middle">☆ Star 3</text>
-  <rect x="342" y="850" width="128" height="44" rx="22" fill="none" stroke="#DA291C" stroke-width="3" stroke-dasharray="8 6"/>
-  <text x="406" y="896" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" font-weight="900" fill="#DA291C" text-anchor="middle">第 3 步点这里</text>
-  <text x="110" y="908" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#9A8B6C">右上角是 Sign up = 没登录先做第 2 步；是头像 = 已登录直接第 3 步</text>
+  <circle cx="156" cy="794" r="14" fill="#DA291C"/>
+  <text x="156" y="799" font-family="'Microsoft YaHei',sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">Y</text>
+  <text x="188" y="788" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="21" font-weight="900" fill="#2B2118">YoungYaoji / mcd-mbti</text>
+  <rect x="452" y="778" width="68" height="22" rx="11" fill="none" stroke="#C9B98F" stroke-width="1.5"/>
+  <text x="486" y="794" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="16" fill="#7A4A1E" text-anchor="middle">Public</text>
+  <rect x="140" y="814" width="96" height="32" rx="16" fill="#FFFFFF" stroke="#C9B98F" stroke-width="1.5"/>
+  <text x="188" y="835" font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#7A4A1E" text-anchor="middle">Watch 3</text>
+  <rect x="244" y="814" width="96" height="32" rx="16" fill="#FFFFFF" stroke="#C9B98F" stroke-width="1.5"/>
+  <text x="292" y="835" font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#7A4A1E" text-anchor="middle">Fork 0</text>
+  <rect x="348" y="814" width="116" height="32" rx="16" fill="#FFFFFF" stroke="#C9B98F" stroke-width="1.5"/>
+  <text x="406" y="835" font-family="'Microsoft YaHei',sans-serif" font-size="19" fill="#7A4A1E" text-anchor="middle">☆ Star 3</text>
+  <rect x="342" y="808" width="128" height="44" rx="22" fill="none" stroke="#DA291C" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="406" y="854" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" font-weight="900" fill="#DA291C" text-anchor="middle">第 3 步点这里</text>
+  <text x="110" y="866" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#9A8B6C">右上角是 Sign up = 没登录先做第 2 步；是头像 = 已登录直接第 3 步</text>
 
   <!-- step 2 -->
-  <rect x="78" y="928" width="924" height="186" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
-  <circle cx="130" cy="974" r="24" fill="#DA291C"/>
-  <text x="130" y="984" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
-  <text x="176" y="984" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" font-weight="900" fill="#2B2118">邮箱注册（已登录可跳过）</text>
+  <rect x="78" y="898" width="924" height="186" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <circle cx="130" cy="944" r="24" fill="#DA291C"/>
+  <text x="130" y="954" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="176" y="954" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" font-weight="900" fill="#2B2118">邮箱注册（已登录可跳过）</text>
 
-  <rect x="110" y="1006" width="880" height="100" rx="12" fill="#F7F4EE" stroke="#E0D5B8" stroke-width="1.5"/>
-  <text x="140" y="1028" font-family="'Microsoft YaHei',sans-serif" font-size="24" font-weight="900" fill="#2B2118">Join GitHub</text>
-  <text x="140" y="1048" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#9A8B6C">创建账号 · 一个邮箱就够</text>
-  <rect x="140" y="1058" width="330" height="34" rx="8" fill="#FFFFFF" stroke="#DDD5C2" stroke-width="1.5"/>
-  <text x="156" y="1080" font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#B9AE94">Email</text>
-  <rect x="482" y="1058" width="330" height="34" rx="8" fill="#FFFFFF" stroke="#DDD5C2" stroke-width="1.5"/>
-  <text x="498" y="1080" font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#B9AE94">Password</text>
-  <rect x="824" y="1058" width="146" height="34" rx="8" fill="#1F883D"/>
-  <text x="897" y="1080" font-family="'Microsoft YaHei',sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">Create account</text>
+  <rect x="110" y="976" width="880" height="100" rx="12" fill="#F7F4EE" stroke="#E0D5B8" stroke-width="1.5"/>
+  <text x="140" y="998" font-family="'Microsoft YaHei',sans-serif" font-size="24" font-weight="900" fill="#2B2118">Join GitHub</text>
+  <text x="140" y="1018" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="18" fill="#9A8B6C">创建账号 · 一个邮箱就够</text>
+  <rect x="140" y="1028" width="330" height="34" rx="8" fill="#FFFFFF" stroke="#DDD5C2" stroke-width="1.5"/>
+  <text x="156" y="1050" font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#B9AE94">Email</text>
+  <rect x="482" y="1028" width="330" height="34" rx="8" fill="#FFFFFF" stroke="#DDD5C2" stroke-width="1.5"/>
+  <text x="498" y="1050" font-family="'Microsoft YaHei',sans-serif" font-size="17" fill="#B9AE94">Password</text>
+  <rect x="824" y="1028" width="146" height="34" rx="8" fill="#1F883D"/>
+  <text x="897" y="1050" font-family="'Microsoft YaHei',sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">Create account</text>
 
   <!-- step 3 -->
-  <rect x="78" y="1126" width="924" height="226" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
-  <circle cx="130" cy="1172" r="24" fill="#DA291C"/>
-  <text x="130" y="1182" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">3</text>
-  <text x="176" y="1182" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" font-weight="900" fill="#2B2118">回到项目页 · 点亮 Star</text>
+  <rect x="78" y="1108" width="924" height="226" rx="18" fill="#FFFFFF" stroke="#E8D9B0" stroke-width="2"/>
+  <circle cx="130" cy="1154" r="24" fill="#DA291C"/>
+  <text x="130" y="1164" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="176" y="1164" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="30" font-weight="900" fill="#2B2118">回到项目页 · 点亮 Star</text>
 
-  <rect x="110" y="1204" width="880" height="126" rx="12" fill="#F7F4EE" stroke="#E0D5B8" stroke-width="1.5"/>
-  <rect x="170" y="1232" width="190" height="52" rx="26" fill="#FFFFFF" stroke="#C9B98F" stroke-width="2"/>
-  <text x="265" y="1265" font-family="'Microsoft YaHei',sans-serif" font-size="21" fill="#7A4A1E" text-anchor="middle">☆ Star 3</text>
-  <text x="265" y="1306" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" fill="#9A8B6C" text-anchor="middle">点亮前</text>
-  <text x="452" y="1265" font-family="'Microsoft YaHei',sans-serif" font-size="30" font-weight="900" fill="#DA291C" text-anchor="middle">→</text>
-  <rect x="545" y="1232" width="240" height="52" rx="26" fill="#FFC72C"/>
-  <text x="665" y="1265" font-family="'Microsoft YaHei',sans-serif" font-size="21" font-weight="900" fill="#7A4A1E" text-anchor="middle">⭐ Starred 4</text>
-  <text x="665" y="1306" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" fill="#9A8B6C" text-anchor="middle">点亮后</text>
-  <text x="540" y="1322" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="19" font-weight="900" fill="#DA291C" text-anchor="middle">☆ 变成黄色 = 投票成功 · 数字会 +1</text>
+  <rect x="110" y="1186" width="880" height="126" rx="12" fill="#F7F4EE" stroke="#E0D5B8" stroke-width="1.5"/>
+  <rect x="170" y="1214" width="190" height="52" rx="26" fill="#FFFFFF" stroke="#C9B98F" stroke-width="2"/>
+  <text x="265" y="1247" font-family="'Microsoft YaHei',sans-serif" font-size="21" fill="#7A4A1E" text-anchor="middle">☆ Star 3</text>
+  <text x="265" y="1288" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" fill="#9A8B6C" text-anchor="middle">点亮前</text>
+  <text x="452" y="1247" font-family="'Microsoft YaHei',sans-serif" font-size="30" font-weight="900" fill="#DA291C" text-anchor="middle">→</text>
+  <rect x="545" y="1214" width="240" height="52" rx="26" fill="#FFC72C"/>
+  <text x="665" y="1247" font-family="'Microsoft YaHei',sans-serif" font-size="21" font-weight="900" fill="#7A4A1E" text-anchor="middle">⭐ Starred 4</text>
+  <text x="665" y="1288" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="17" fill="#9A8B6C" text-anchor="middle">点亮后</text>
+  <text x="540" y="1304" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="19" font-weight="900" fill="#DA291C" text-anchor="middle">☆ 变成黄色 = 投票成功 · 数字会 +1</text>
 
   <!-- CTA -->
-  <rect x="0" y="1352" width="1080" height="88" fill="url(#hdr)"/>
-  <rect x="0" y="1352" width="1080" height="6" fill="#FFC72C"/>
+  <rect x="0" y="1358" width="1080" height="82" fill="url(#hdr)"/>
+  <rect x="0" y="1358" width="1080" height="6" fill="#FFC72C"/>
   <g font-family="'Microsoft YaHei','PingFang SC',sans-serif" text-anchor="middle">
-    <text x="540" y="1398" font-size="32" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
-    <text x="540" y="1430" font-size="18" fill="#FFE9B8">保存这条教程 · 测测你是什么麦门人格</text>
+    <text x="540" y="1404" font-size="32" font-weight="900" fill="#FFFFFF" letter-spacing="2">GitHub 搜索：mcd-mbti</text>
+    <text x="540" y="1436" font-size="18" fill="#FFE9B8">保存这条教程 · 测测你是什么麦门人格</text>
   </g>
 </svg>
